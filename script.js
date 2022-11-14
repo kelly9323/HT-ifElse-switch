@@ -86,98 +86,40 @@ if (Number(checkAgeStatus) >= 0 && Number(checkAgeStatus) < 2) {
 const insertHour = prompt("Enter hour, please");
 switch (insertHour) {
   case "7":
-    console.log("good morning");
-    break;
-
   case "8":
-    console.log("good morning");
-    break;
-
   case "9":
-    console.log("good morning");
-    break;
-
   case "10":
     console.log("good morning");
     break;
 
   case "11":
-    console.log("good day");
-    break;
-
   case "12":
-    console.log("good day");
-    break;
-
   case "13":
-    console.log("good day");
-    break;
-
   case "14":
-    console.log("good day");
-    break;
-
   case "15":
-    console.log("good day");
-    break;
-
   case "16":
-    console.log("good day");
-    break;
-
   case "17":
     console.log("good day");
     break;
 
   case "18":
-    console.log("good evening");
-    break;
-
   case "19":
-    console.log("good evening");
-    break;
-
   case "20":
-    console.log("good evening");
-    break;
-
   case "21":
-    console.log("good evening");
-    break;
-
   case "22":
     console.log("good evening");
     break;
 
   case "23":
-    console.log("good night");
-    break;
-
   case "0":
   case "00":
-    console.log("good night");
-    break;
-
   case "1":
-    console.log("good night");
-    break;
-
   case "3":
-    console.log("good night");
-    break;
-
   case "4":
-    console.log("good night");
-    break;
-
   case "5":
-    console.log("good night");
-    break;
-
   case "6":
     console.log("good night");
     break;
-
   default:
     console.log("404 error");
     break;
